@@ -5,10 +5,8 @@
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.23.4]",
-    "UiPath.Mail.Activities": "[1.23.1]",
     "UiPath.System.Activities": "[24.10.3]",
-    "UiPath.Testing.Activities": "[24.10.0]",
-    "UiPath.UIAutomation.Activities": "[24.10.0]"
+    "UiPath.Testing.Activities": "[24.10.0]"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -50,7 +48,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "111d14e8-7b70-47fb-ba5f-c317525a2eb2",
+      "uniqueId": "9d621ba6-c6b0-4445-98e0-79a93ee1fac1",
       "input": [],
       "output": []
     }

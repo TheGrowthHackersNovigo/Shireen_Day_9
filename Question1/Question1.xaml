@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Question1" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="887,1913" sap2010:WorkflowViewState.IdRef="Question1_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Console" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Question1" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="883.3333333333334,2442.6666666666665" sap2010:WorkflowViewState.IdRef="Question1_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Console" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -39,60 +39,58 @@
     <sco:Collection x:TypeArguments="AssemblyReference">
       <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
       <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
       <AssemblyReference>System</AssemblyReference>
       <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
       <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
       <AssemblyReference>System.Core</AssemblyReference>
       <AssemblyReference>System.Data</AssemblyReference>
       <AssemblyReference>System.Data.Common</AssemblyReference>
       <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
       <AssemblyReference>System.Drawing</AssemblyReference>
       <AssemblyReference>System.Drawing.Common</AssemblyReference>
       <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
       <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Linq.Parallel</AssemblyReference>
+      <AssemblyReference>System.Linq.Queryable</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
       <AssemblyReference>System.Net.Mail</AssemblyReference>
       <AssemblyReference>System.ObjectModel</AssemblyReference>
       <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
       <AssemblyReference>System.Xaml</AssemblyReference>
       <AssemblyReference>System.Xml</AssemblyReference>
       <AssemblyReference>System.Xml.Linq</AssemblyReference>
-      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
-      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
-      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
-      <AssemblyReference>System.Memory.Data</AssemblyReference>
-      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
-      <AssemblyReference>NPOI</AssemblyReference>
-      <AssemblyReference>System.Console</AssemblyReference>
-      <AssemblyReference>System.Security.Permissions</AssemblyReference>
-      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
-      <AssemblyReference>System.ComponentModel</AssemblyReference>
-      <AssemblyReference>System.Memory</AssemblyReference>
-      <AssemblyReference>System.Private.Uri</AssemblyReference>
-      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
-      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
-      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
-      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
-      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
-      <AssemblyReference>UiPath.Platform</AssemblyReference>
-      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
-      <AssemblyReference>PresentationFramework</AssemblyReference>
-      <AssemblyReference>WindowsBase</AssemblyReference>
-      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
-      <AssemblyReference>System.Private.Xml</AssemblyReference>
       <AssemblyReference>UiPath.Excel</AssemblyReference>
       <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
-      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
-      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
-      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
-      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
-      <AssemblyReference>System.Linq.Async</AssemblyReference>
-      <AssemblyReference>System.Collections</AssemblyReference>
-      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
-      <AssemblyReference>System.Linq.Async.Queryable</AssemblyReference>
-      <AssemblyReference>System.Linq.Parallel</AssemblyReference>
-      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
-      <AssemblyReference>System.Linq.Queryable</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
       <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
   <sap:WorkflowViewStateService.ViewState>
@@ -100,28 +98,21 @@
       <x:Boolean x:Key="ShouldCollapseAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence sap2010:Annotation.AnnotationText="• From the data.csv table create the Dictionary with (Key as String, value string)              &lt; Alphanumeric, name &gt;&#xD;&#xA;• From above dictionary create a list (of string) &lt; Alphanumeric&gt; and perform below tasks (using UiPath Activities and also Using Invoke Code Activity &#xD;&#xA;                  remove PWU75VXM9QP, GVX07PGO5HE from list &#xD;&#xA;                  add LIV17NFL8ZZ  to list&#xD;&#xA;• Iterate through above Dictionary using for each and display values to logs using Invoke method activity&#xD;&#xA;" DisplayName="Question1" sap:VirtualizedContainerService.HintSize="512,2059" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="• From the data.csv table create the Dictionary with (Key as String, value string)              &lt; Alphanumeric, name &gt;&#xA;• From above dictionary create a list (of string) &lt; Alphanumeric&gt; and perform below tasks (using UiPath Activities and also Using Invoke Code Activity &#xA;                  remove PWU75VXM9QP, GVX07PGO5HE from list &#xA;                  add LIV17NFL8ZZ  to list&#xA;• Iterate through above Dictionary using for each and display values to logs using Invoke method activity&#xA;" DisplayName="Question1" sap:VirtualizedContainerService.HintSize="512,2378" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="dt_InputTable" />
-      <Variable x:TypeArguments="x:String" Name="InputFilePath">
-        <Variable.Default>
-          <Literal x:TypeArguments="x:String">Data\Input\Question1.csv</Literal>
-        </Variable.Default>
-      </Variable>
+      <Variable x:TypeArguments="x:String" Default="Data\Input\Question1.csv" Name="InputFilePath" />
       <Variable x:TypeArguments="scg:Dictionary(x:String, x:String)" Name="InputDictionary" />
-      <Variable x:TypeArguments="scg:List(x:String)" Name="AlphanumericList">
-        <Variable.Default>
-          <VisualBasicValue x:TypeArguments="scg:List(x:String)" ExpressionText="new List(of String)" />
-        </Variable.Default>
-      </Variable>
+      <Variable x:TypeArguments="scg:List(x:String)" Default="[new List(of String)]" Name="AlphanumericList" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+        <x:Boolean x:Key="IsPinned">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:LogMessage sap2010:Annotation.AnnotationText=" Execution of Invoke method and code started" DisplayName="Log Message : Execution of Invoke method and code started" sap:VirtualizedContainerService.HintSize="450,99" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Process Invoke code and method started&quot;]">
+    <ui:LogMessage sap2010:Annotation.AnnotationText=" Execution of Invoke method and code started" DisplayName="Log Message : Execution of Invoke method and code started" sap:VirtualizedContainerService.HintSize="450,102.66666666666667" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Process Invoke code and method started&quot;]">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
@@ -130,7 +121,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:LogMessage>
-    <ui:ReadCsvFile PathResource="{x:Null}" sap2010:Annotation.AnnotationText="Reading the input csv which contains name,email and alphanumeric" DataTable="[dt_InputTable]" Delimitator="Comma" DelimitatorForViewModel="Comma" DisplayName="Read CSV : Input file" FilePath="[InputFilePath]" sap:VirtualizedContainerService.HintSize="450,114" sap2010:WorkflowViewState.IdRef="ReadCsvFile_1">
+    <ui:ReadCsvFile PathResource="{x:Null}" sap2010:Annotation.AnnotationText="Reading the input csv which contains name,email and alphanumeric" DataTable="[dt_InputTable]" Delimitator="Comma" DelimitatorForViewModel="Comma" DisplayName="Read CSV : Input file" FilePath="[InputFilePath]" sap:VirtualizedContainerService.HintSize="450,119.33333333333333" sap2010:WorkflowViewState.IdRef="ReadCsvFile_1">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
@@ -139,7 +130,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:ReadCsvFile>
-    <Assign sap2010:Annotation.AnnotationText="Assigning the dictionary with alphanumerics as keys and names as values" DisplayName="Assign : Dictionary with Alphanumerics and names" sap:VirtualizedContainerService.HintSize="450,99" sap2010:WorkflowViewState.IdRef="Assign_1">
+    <Assign sap2010:Annotation.AnnotationText="Assigning the dictionary with alphanumerics as keys and names as values" DisplayName="Assign : Dictionary with Alphanumerics and names" sap:VirtualizedContainerService.HintSize="450,119.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_1">
       <Assign.To>
         <OutArgument x:TypeArguments="scg:Dictionary(x:String, x:String)">[InputDictionary]</OutArgument>
       </Assign.To>
@@ -154,16 +145,16 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </Assign>
-    <ui:LogMessage sap2010:Annotation.AnnotationText="Checking the value of the InputDictionary in the console&#xD;&#xA;" DisplayName="Log Message : InputDictionary" sap:VirtualizedContainerService.HintSize="450,129" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Info" Message="[String.Join(&quot;,&quot;,InputDictionary)]">
+    <ui:LogMessage sap2010:Annotation.AnnotationText="Checking the value of the InputDictionary in the console&#xA;" DisplayName="Log Message : InputDictionary" sap:VirtualizedContainerService.HintSize="450,238.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Info" Message="[String.Join(&quot;,&quot;,InputDictionary)]">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
-          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:LogMessage>
-    <Assign sap2010:Annotation.AnnotationText="Assigning the list with dictionary keys which is alphanumeric&#xD;&#xA;" DisplayName="Assign : List with Alphanumerics" sap:VirtualizedContainerService.HintSize="450,114" sap2010:WorkflowViewState.IdRef="Assign_2">
+    <Assign sap2010:Annotation.AnnotationText="Assigning the list with dictionary keys which is alphanumeric&#xA;" DisplayName="Assign : List with Alphanumerics" sap:VirtualizedContainerService.HintSize="450,136" sap2010:WorkflowViewState.IdRef="Assign_2">
       <Assign.To>
         <OutArgument x:TypeArguments="scg:List(x:String)">[AlphanumericList]</OutArgument>
       </Assign.To>
@@ -178,20 +169,18 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </Assign>
-    <ui:LogMessage sap2010:Annotation.AnnotationText="Checking the value of the AlphaNumericList in the console&#xD;&#xA;" DisplayName="Log Message : AlphanumericList" sap:VirtualizedContainerService.HintSize="450,129" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[String.Join(&quot;,&quot;,AlphanumericList)]">
+    <ui:LogMessage sap2010:Annotation.AnnotationText="Checking the value of the AlphaNumericList in the console&#xA;" DisplayName="Log Message : Displaying AlphanumericList" sap:VirtualizedContainerService.HintSize="450,238.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[String.Join(&quot;,&quot;,AlphanumericList)]">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
-          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:LogMessage>
-    <ui:InvokeCode ContinueOnError="{x:Null}" sap2010:Annotation.AnnotationText="Invoke Code Activity  to remove PWU75VXM9QP, GVX07PGO5HE from list and add LIV17NFL8ZZ  to list" Code="ListOperation.Remove(&quot;PWU75VXM9QP&quot;)&#xD;&#xA;ListOperation.Remove(&quot;GVX07PGO5HE&quot;)&#xD;&#xA;ListOperation.Add(&quot;LIV17NFL8ZZ&quot;)&#xD;&#xA;                " DisplayName="Invoke Code : To remove and add alphanumeric" sap:VirtualizedContainerService.HintSize="450,239" sap2010:WorkflowViewState.IdRef="InvokeCode_1">
+    <ui:InvokeCode ContinueOnError="{x:Null}" sap2010:Annotation.AnnotationText="Invoke Code Activity  to remove PWU75VXM9QP, GVX07PGO5HE from list and add LIV17NFL8ZZ  to list" Code="ListOperation.Remove(&quot;PWU75VXM9QP&quot;)&#xA;ListOperation.Remove(&quot;GVX07PGO5HE&quot;)&#xA;ListOperation.Add(&quot;LIV17NFL8ZZ&quot;)&#xA;                " DisplayName="Invoke Code : To remove and add alphanumeric" sap:VirtualizedContainerService.HintSize="450,242.66666666666666" sap2010:WorkflowViewState.IdRef="InvokeCode_1">
       <ui:InvokeCode.Arguments>
-        <InArgument x:TypeArguments="scg:List(x:String)" x:Key="ListOperation">
-          <VisualBasicValue x:TypeArguments="scg:List(x:String)" ExpressionText="AlphanumericList" />
-        </InArgument>
+        <InArgument x:TypeArguments="scg:List(x:String)" x:Key="ListOperation">[AlphanumericList]</InArgument>
       </ui:InvokeCode.Arguments>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -201,7 +190,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:InvokeCode>
-    <ui:LogMessage sap2010:Annotation.AnnotationText="Checking the value of the AlphaNumericList in the console&#xD;&#xA;" DisplayName="Log Message : AlphanumericList" sap:VirtualizedContainerService.HintSize="450,129" sap2010:WorkflowViewState.IdRef="LogMessage_7" Level="Info" Message="[String.Join(&quot;,&quot;,AlphanumericList)]">
+    <ui:LogMessage sap2010:Annotation.AnnotationText="Checking the value of the AlphaNumericList in the console&#xA;" DisplayName="Log Message : AlphanumericList" sap:VirtualizedContainerService.HintSize="450,136" sap2010:WorkflowViewState.IdRef="LogMessage_7" Level="Info" Message="[String.Join(&quot;,&quot;,AlphanumericList)]">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
@@ -210,7 +199,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:LogMessage>
-    <ui:LogMessage sap2010:Annotation.AnnotationText="Checking the value of the list in the console after inserting and removing the values from the list&#xD;&#xA;" DisplayName="Log Message : Final results" sap:VirtualizedContainerService.HintSize="450,144" sap2010:WorkflowViewState.IdRef="LogMessage_8" Level="Info" Message="[&quot;The results &quot;]">
+    <ui:LogMessage sap2010:Annotation.AnnotationText="Checking the value of the list in the console after inserting and removing the values from the list&#xA;" DisplayName="Log Message : Final results" sap:VirtualizedContainerService.HintSize="450,152.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_8" Level="Info" Message="[&quot;The results &quot;]">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
@@ -219,16 +208,13 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:LogMessage>
-    <ui:ForEach x:TypeArguments="scg:KeyValuePair(x:String, x:String)" CurrentIndex="{x:Null}" sap2010:Annotation.AnnotationText="Iterating through above Dictionary using for each and displaying values to logs using Invoke method activity" DisplayName="For Each items : In dictionary" sap:VirtualizedContainerService.HintSize="450,538" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[InputDictionary]">
+    <ui:ForEach x:TypeArguments="scg:KeyValuePair(x:String, x:String)" CurrentIndex="{x:Null}" sap2010:Annotation.AnnotationText="Iterating through above Dictionary using for each and displaying values to logs using Invoke method activity" DisplayName="For Each items : In dictionary" sap:VirtualizedContainerService.HintSize="450,548.6666666666666" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[InputDictionary]">
       <ui:ForEach.Body>
         <ActivityAction x:TypeArguments="scg:KeyValuePair(x:String, x:String)">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="scg:KeyValuePair(x:String, x:String)" Name="items" />
           </ActivityAction.Argument>
-          <Sequence sap2010:Annotation.AnnotationText="" DisplayName="Body : Writing the values of te dictionary to the console" sap:VirtualizedContainerService.HintSize="416,350" sap2010:WorkflowViewState.IdRef="Sequence_2">
-            <Sequence.Variables>
-              <Variable x:TypeArguments="x:String" Name="InvokeItems" />
-            </Sequence.Variables>
+          <Sequence sap2010:Annotation.AnnotationText="" DisplayName="Body : Writing the values of te dictionary to the console" sap:VirtualizedContainerService.HintSize="416,355.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -236,16 +222,14 @@
                 <x:Boolean x:Key="IsPinned">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <InvokeMethod sap2010:Annotation.AnnotationText="Invoke method to write the values of the dictionary to the console where target type is System.Console and MethodName is WriteLine" DisplayName="Invoke Method : Write values to console" sap:VirtualizedContainerService.HintSize="354,231" sap2010:WorkflowViewState.IdRef="InvokeMethod_1" MethodName="WriteLine" TargetType="s:Console">
+            <InvokeMethod sap2010:Annotation.AnnotationText="Invoke method to write the values of the dictionary to the console where target type is System.Console and MethodName is WriteLine" DisplayName="Invoke Method : Write values to console" sap:VirtualizedContainerService.HintSize="354,236.66666666666666" sap2010:WorkflowViewState.IdRef="InvokeMethod_1" MethodName="WriteLine" TargetType="s:Console">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
                   <x:Boolean x:Key="IsPinned">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <InArgument x:TypeArguments="x:String">
-                <VisualBasicValue x:TypeArguments="x:String" ExpressionText="items.Value" />
-              </InArgument>
+              <InArgument x:TypeArguments="x:String">[items.Value]</InArgument>
             </InvokeMethod>
           </Sequence>
         </ActivityAction>
@@ -258,7 +242,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:ForEach>
-    <ui:LogMessage sap2010:Annotation.AnnotationText=" Execution of Invoke method and code completed" DisplayName="Log Message : Execution of Invoke method and code completed" sap:VirtualizedContainerService.HintSize="450,90" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Process Invoke code and method Completed&quot;]">
+    <ui:LogMessage sap2010:Annotation.AnnotationText=" Execution of Invoke method and code completed" DisplayName="Log Message : Execution of Invoke method and code completed" sap:VirtualizedContainerService.HintSize="450,93.33333333333333" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Process Invoke code and method Completed&quot;]">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
